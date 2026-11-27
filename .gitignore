@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Generated vector stores (rebuild via ingestion)
+chroma_db_*/
+
+# macOS
+.DS_Store
